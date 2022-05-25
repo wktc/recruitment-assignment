@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "cc8987ba-190e-4844-8af8-349552cea31f",
+		"name": "RecruitmentAssignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Add product",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "userId",
+						"value": "f91a6abd-2f61-4549-95f0-0527c69189f4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/ShoppingCart/AddProduct?productId=88a7f65f-a2a8-401c-a804-3fd7bde7f24f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"ShoppingCart",
+						"AddProduct"
+					],
+					"query": [
+						{
+							"key": "productId",
+							"value": "88a7f65f-a2a8-401c-a804-3fd7bde7f24f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Use discount voucher",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "userId",
+						"value": "f91a6abd-2f61-4549-95f0-0527c69189f4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/ShoppingCart/UseDiscountCode?code=qwerty",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"ShoppingCart",
+						"UseDiscountCode"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "qwerty"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Create order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "userId",
+						"value": "f91a6abd-2f61-4549-95f0-0527c69189f4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"shoppingCartId\": \"f91a6abd-2f61-4549-95f0-0527c69189f4\",\r\n    \"paymentMethod\": \"CreditCard\",\r\n    \"remarks\": \"User remarks from json\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Order/Create?shoppingCartId=f91a6abd-2f61-4549-95f0-0527c69189f4&paymentMethod=CreditCard&remarks=\"user remarks\"",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Order",
+						"Create"
+					],
+					"query": [
+						{
+							"key": "shoppingCartId",
+							"value": "f91a6abd-2f61-4549-95f0-0527c69189f4"
+						},
+						{
+							"key": "paymentMethod",
+							"value": "CreditCard"
+						},
+						{
+							"key": "remarks",
+							"value": "\"user remarks\""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

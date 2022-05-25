@@ -1,0 +1,13 @@
+.vs/
+Application/bin/
+Application/obj/
+Common.Domain/bin/Debug/net5.0/Common.Domain.deps.json
+Common.Domain/bin/
+Common.Domain/obj/
+Domain/bin/
+Domain/obj/
+Infrastructure/bin/
+Infrastructure/obj/
+*.user
+WkRecruitmentAssignment/bin/
+WkRecruitmentAssignment/obj/
