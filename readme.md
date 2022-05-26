@@ -30,11 +30,11 @@ Dla środowiska Development: wkpolska.pl.
 
 ## UWAGI
 1. Assembly Infrastructure można rozbudowywać, ale nie zmieniać.
-2. Jeśli pomysł na realizację jakiegokolwiek punktu okaże się zbyt czasochłonny zaproponuj bardziej naiwną implementację a skomplikowany pomysł
+2. Jeśli pomysł na realizację jakiegokolwiek punktu okaże się zbyt czasochłonny zaproponuj bardziej naiwną implementację, a skomplikowany pomysł
 opisz w komentarzu.
 3. Notuj jakie masz uwagi do otrzymanego kodu.
 4. Stosuj dobre praktyki programowania i wzorce projektowe – to jest dla nas bardzo ważne. Aktualny kod aplikacji nie spełnia zasady YAGNI w celu ułatwienia realizacji zadania.
-5. Nie musisz znać Domain Driven Design, aby zrobić te zadania, ale będzie Ci trudniej. Patrząc na przykłady oraz łykając podstawy z interentu powinieneś się odnaleźć w naszym kodzie.
+5. Nie musisz znać Domain Driven Design, aby zrobić te zadania, ale będzie Ci trudniej. Patrząc na przykłady oraz łykając podstawy z internetu powinieneś się odnaleźć w naszym kodzie.
 6. Wczytaj się w wymagania biznesowe i precyzyjnie realizuj, to co  jest w nich zawarte – nic ponad to. Jeśli coś nie jest w nich ujęte, przyjmij wariant prostszy w realizacji.
 7. Na potrzeby zadania przyjęliśmy oczywiście wiele uproszczeń. Np. repozytoria mają swoją implementację w pamięci. Założmy też, że to co się dzieje w metodzie Handle w Handlerze odbywa się w transakcji bazodanowej. Jeśli potrzebujesz przyjąć jakąś konkretną bazę danych pod spodem, to przyjmnij Sql Server.
 8. Jeśli będziesz miał potrzebę rozbudowy jakiegoś mechanizmu aplikacyjnego/infrastrukturalnego, możesz to zrobić - możesz też stosować uproszczenia - ważne, aby pokazać ideę, a pominięte detale warto umieścić w komentarzu.
