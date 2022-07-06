@@ -1,5 +1,5 @@
 # Zadanie rekrutacyjne
-Przed Tobą zadanie rekrutacyjne. Działaj na kopii repozytorium (nie na forku). Rozwiązanie umieść na publicznym githubie lub prześlij w zipie na maila. Powodzenia!
+Przed Tobą zadanie rekrutacyjne. Działaj na kopii repozytorium (nie na forku). Rozwiązanie prześlij w zipie na maila (nie umieszczaj rozwiązania na publicznym githubie). Powodzenia!
 ## Domena
 Aplikacja służy do robienia zakupów. 
 ### Koszyk Zakupowy (ShoppingCart)
